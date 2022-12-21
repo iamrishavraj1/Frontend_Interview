@@ -6,6 +6,6 @@ let obj2 = {
 };
 
 function printName(college, place) {
-  console.log(this.name + " from" + college + " ," + place);
+  console.log(this.name+ " from" + college + " ," + place);
 }
-printName("BIT", "MESRA");
+printName(+"BIT", "MESRA");
