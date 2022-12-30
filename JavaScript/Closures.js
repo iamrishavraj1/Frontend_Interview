@@ -1,8 +1,9 @@
-function outter(outer) {
-  return function inner(innerF) {
-    console.log(outer);
-    console.log(innerF);
-  };
-}
-const newFun = outter("Outer");
-newFun("Inner");
+// function outerFunction(outer) {
+//   return function innerFunction(inner) {
+//     console.log(outer);
+//     console.log(inner);
+//   };
+// }
+
+// const inFn = outerFunction("OUTER");
+// inFn("INNER");
