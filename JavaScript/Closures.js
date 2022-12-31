@@ -1,9 +1,9 @@
-// function outerFunction(outer) {
-//   return function innerFunction(inner) {
-//     console.log(outer);
-//     console.log(inner);
-//   };
-// }
+function outerFunction() {
+  let example = "Hello";
 
-// const inFn = outerFunction("OUTER");
-// inFn("INNER");
+  return function innerFunction() {
+    console.log(example);
+  };
+}
+const closure = outerFunction();
+closure();
