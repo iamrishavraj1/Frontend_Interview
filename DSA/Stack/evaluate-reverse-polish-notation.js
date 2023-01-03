@@ -1,5 +1,5 @@
 //https://leetcode.com/problems/evaluate-reverse-polish-notation/
-let tokens = [ "2", "1", "+", "3", "*" ];
+let tokens = ["2", "1", "+", "3", "*"];
 let stack = [];
 for (let i = 0; i < tokens.length; i++) {
   if (tokens[i] === "+") {
