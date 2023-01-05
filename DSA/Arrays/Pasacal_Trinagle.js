@@ -14,4 +14,4 @@ for (let i = 0; i < numsRows; i++) {
     // console.log(ans);
   }
 }
-console.log(ans);
+console.log(ans[3]);
