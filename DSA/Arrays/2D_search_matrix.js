@@ -14,11 +14,11 @@ let flag = false;
 let high = n * m - 1;
 while (low <= high) {
   let mid = low + (high - low) / 2;
-    if ( matrix[ [ mid / m ][ mid % m ] ] === target )
-    {
-      console.log(matrix[[mid / m][mid % m]]);
+  if (matrix[[mid / m][mid % m]] === target) {
+    console.log(matrix[[mid / m][mid % m]]);
     flag = true;
   }
+
   if (matrix[[mid / m][mid % m]] > target) {
     high = mid - 1;
   } else {
